@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project.COMMON
+namespace Project.ENTITIES.Enums
 {
-    public class Class1
+    public enum UserRole
     {
+        Admin = 1, Member = 2, Visitor = 3
+
+
     }
 }

@@ -4,9 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project.ENTITIES
+namespace Project.ENTITIES.Enums
 {
-    public class Class1
+    public enum DataStatus
     {
+        Inserted = 1, Updated = 2, Deleted = 3
+
+
+
+
     }
 }
